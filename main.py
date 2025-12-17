@@ -21,7 +21,7 @@ from telegram.ext import (
 
 # ---------- НАСТРОЙКИ ----------
 import os
-TOKEN = os.getenv("BOT_TOKEN")# <<< ВСТАВЬ СВОЙ ТОКЕН ОТ BotFather
+TOKEN = os.getenv("BOT_TOKEN")
 DB_PATH = Path("workers.db")
 
 logging.basicConfig(
