@@ -20,7 +20,8 @@ from telegram.ext import (
 )
 
 # ---------- НАСТРОЙКИ ----------
-TOKEN = "8176638903:AAE8Wtc4fSW9lFTMrRknIUg7SSXl6YWXxqY"  # <<< ВСТАВЬ СВОЙ ТОКЕН ОТ BotFather
+import os
+TOKEN = os.getenv("BOT_TOKEN")# <<< ВСТАВЬ СВОЙ ТОКЕН ОТ BotFather
 DB_PATH = Path("workers.db")
 
 logging.basicConfig(
