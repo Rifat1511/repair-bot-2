@@ -422,7 +422,7 @@ def main():
     app.add_handler(CallbackQueryHandler(on_callback))
 
     print("Бот запущен...")
-    app.run_polling()
+    app.run_polling(port=8000)
 
 
 if __name__ == "__main__":
