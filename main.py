@@ -21,8 +21,7 @@ from telegram.ext import (
 
 # ---------- НАСТРОЙКИ ----------
 import os
-TOKEN = os.getenv("BOT_TOKEN")
-DB_PATH = Path("workers.db")
+TOKEN = 8176638903:AAE8Wtc4fSW9lFTMrRknIUg7SSXl6YWXxqY
 
 logging.basicConfig(
     format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
